@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300;500;600&display=swap');
+
+
+html {
+    font-family: 'Open Sans';
+}
+
+body {
+    background: #F2F5FF;
+    height: 1568px;
+    width: 1728px;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #324054;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.72px;
+    line-height: 23px;
+}
+
+table {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18.72px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
