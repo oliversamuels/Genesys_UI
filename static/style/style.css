@@ -10,6 +10,19 @@ body {
     background: #F2F5FF;
     height: 1568px;
     width: 1728px;
-    
-    
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #324054;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.72px;
+    line-height: 23px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
 }
