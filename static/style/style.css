@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:wght@300;500;600&display=swap');
+
+
+html {
+    font-family: 'Open Sans';
+}
+
+body {
+    background: #F2F5FF;
+    height: 1568px;
+    width: 1728px;
+    
+    
+}

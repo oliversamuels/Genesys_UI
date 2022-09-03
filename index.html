@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+    <title>Navbar</title>
+</head>
+<body>
+    <div class="container-fluid row" style="height:100%;">
+        <div class="row container mt-3" style="height:167px">
+            
+            <!--  Welcome Frame -->
+
+            <div class="col-3"></div>
+            <div class="col-3">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img class="img-responsive" src="static/images/doctor.png" style="width:100px" alt="">
+                    <div>
+                        <h2 class="text-primary mb-3" style="font-family:DM Sans; font-weight: 700;font-size: 40;">Super User</h2>
+                        <p class="mb-0" style="font-family:Open Sans;font-weight: 600;font-size: 18px;line-height: 24.51px;">Welcome back, Jane Doe</p>
+                        <p class="mb-0" style="font-family:Open Sans;font-weight: 600;font-size: 18px;line-height: 24.51px;">Manage your users</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center">
+                <div>
+                    <p>Thursday, 11th August, 2022</p>
+                </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="position-relative">
+                        <img style="left:0;" src="static/images/noto_sun-behind-small-cloud.png" alt="">
+                    </div>
+                    <p  class="mb-0" style="font-family: 'Open Sans';font-style: normal;font-weight: 600;font-size: 18px;line-height: 25px;">The weather today is 27<sup>&#8457;</sup></p>
+                    <small class="mb-0">76% chance of rain.</small>
+                </div>
+            </div>
+        </div>
+        <!--  End of Welcome Frame. -->
+
+        <!--  Begining Side Nav -->
+
+        <div class="col mb-10 fixed-top" style="width:292.44px; height:1891.98px">
+            <nav class="nav flex-column mt-2 w-100">
+                <div class="nav-item mb-5">
+                    <a href="#" class=nav-link>
+                        <img src="static/images/genesys erp 3- 2.png" alt="">
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <form class="form form-sm w-75 ml-2">
+                        <input type="search" class="form-control" placeholder="search..">
+                    </form>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link>Dashboard</a>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="btn btn-link" data-bs-toggle="collapse" href="#ex1" role="button" aria-expanded="false" aria-controls="ex1"><i class="bi bi-person"></i>&nbsp;Front Desk &nbsp;<i class="bi bi-caret-down-fill"></i></a>
+                    <div class="collapse" id="ex1">
+                        <ul class="dropdown-menu dropdown-menu-dark bg-gradient">
+                            <li><a class="dropdown-item btn btn-default" href="#">Patient Search</a></li>
+                            <li><a class="dropdown-item btn btn-default" href="#">Out Patient Queue</a></li>
+                            <li><a class="dropdown-item btn btn-default" href="#">Admitted Patient</a></li>
+                            <li><a class="dropdown-item btn btn-default" href="#">Antenatal Patient</a></li>
+                            <li><a class="dropdown-item btn btn-default" href="#">Add New Patient</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/Vector.png"alt="">Nursing</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/openmoji_stethoscope.png"alt="">Doctor Panel</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/ps_lab.png"alt="">Laboratory</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><i class="bi bi-capsule"></i>&nbsp;Medicine</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/ic_outline-inventory-2.png"alt="">Inventory</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/akar-icons_money.png"alt="">Billing/Finance</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/ic_baseline-health-and-safety.png"alt="">Health Insurance</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/clarity_email-outline-badged.png"alt="">Message</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/ion_analytics.png"alt="">Report</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/ep_setting.png"alt="">System Setting</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class=nav-link><img src="static/images/Nav Icon Item.png"alt="">Appointment</a>
+                </div>
+            </nav>
+        </div>
+
+       <!--  End of Side Nav -->
+
+        <div class="container-fluid p-0 shadow" style="border-radius:10px 0 0 0; position: absolute; width: 1337px; height: 1232px; left: 292px; top: 258px;">
+            <div class="container w-100 m-0 h-25" style="background-color:#F7F8FD; border-radius:10px 0 0 0;">
+                <div class="container row h-100 justify-content-center">
+                    <div class="col h-100">
+                        <div class="row h-100 m-1.5">
+                            <div class="container col d-flex justify-content-end align-items-center"><div class="rounded-circle" style="width: 162px; height: 162px; background-image:url(static/images/Ellipse\ 83.png)"></div></div>
+                            <div class="container col d-flex align-items-center">
+                                <div>
+                                    <p class="mb-0" style="font-size:24px;"><b>Jane Doe</b></p>
+                                    <p class="mb-0" style="font-size:18px;">Role: Super User</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div>
+                            <button class="btn btn-primary" style="font-family:Open Sans; font: size 18px;">Add User&nbsp;<i class="bi bi-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container h-75" style="background-color:#FFFFFF; width:1337px; height:1232px">
+                <div class="container row h-25 justify-content-center align-items-center">
+                    <div class="container p-3 col-10">
+                        <form action="" class="form">
+                            <div class="mb-3 row">
+                                <div class="col-4">
+                                    <select type="search" class="form-select rounded-0">
+                                        <option selected>Search by Staff ID</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                        <option value="4">Four</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by Surname">
+                                </div>
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by First Name">
+                                </div>
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by Middle Name">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by Email">
+                                </div>
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by Department">
+                                </div>
+                                <div class="col-4">
+                                    <input type="search" class="form-control rounded-0" placeholder="Search by Status">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="container h-50 p-4">
+                    <div class="container m-3 mb-5">
+                        <h2 class="text-primary">Registered Users</h2>
+                    </div>
+                    <table class="table" style="height: 200px;">
+                        <thead>
+                            <tr class="table-secondary">
+                                <th></th>
+                                <th class="p-3" scope="col">Staff ID</th>
+                                <th class="p-3" scope="col">Name</th>
+                                <th class="p-3" scope="col">Username</th>
+                                <th class="p-3" scope="col">Department</th>
+                                <th class="p-3"scope="col">Role</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-3 pl-5"><div class="rounded-circle" style="height:50px; width:50px; background-image:url(static/images/Ellipse\ 83\ \(1\).png)"></div></td>
+                                <td class="p-3">EMP001</td>
+                                <td class="p-3">Kehinde Olamide Bade</td>
+                                <td class="p-3">Todogwu</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3"><a href="">View actions</a></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3"><div class="rounded-circle" style="height:50px; width:50px; background-image:url(static/images/Ellipse\ 83\ \(1\).png)"></div></td>
+                                <td class="p-3">EMP001</td>
+                                <td class="p-3">Kehinde Olamide Bade</td>
+                                <td class="p-3">Todogwu</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3"><a href="">View actions</a></td>
+                            </tr>
+                            <tr>
+                                <td class="p-3"><div class="rounded-circle" style="height:50px; width:50px; background-image:url(static/images/Ellipse\ 83\ \(1\).png)"></div></td>
+                                <td class="p-3">EMP001</td>
+                                <td class="p-3">Kehinde Olamide Bade</td>
+                                <td class="p-3">Todogwu</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3">Nurse</td>
+                                <td class="p-3"><a href="">View actions</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 mt-3 h-100">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
